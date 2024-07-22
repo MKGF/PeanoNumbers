@@ -1,5 +1,5 @@
 package com.desierto;
 
-interface Peano {
+public interface Peano {
 
 }

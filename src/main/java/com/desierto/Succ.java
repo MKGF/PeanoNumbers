@@ -2,7 +2,7 @@ package com.desierto;
 
 import lombok.EqualsAndHashCode;
 
-final class Succ implements Peano {
+public final class Succ implements Peano {
 
   final Peano peano;
 
