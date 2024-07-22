@@ -20,10 +20,10 @@ interface Peano {
 
 where:
 
-- 0 is represented by Zero.INSTANCE
-- 1 is represented by Succ(Zero.INSTANCE)
-- 2 is represented by Succ(Succ(Zero.INSTANCE))
-- 3 is represented by Succ(Succ(Succ(Zero.INSTANCE)))
+- 0 is represented by `Zero.INSTANCE`
+- 1 is represented by `Succ(Zero.INSTANCE)`
+- 2 is represented by `Succ(Succ(Zero.INSTANCE))`
+- 3 is represented by `Succ(Succ(Succ(Zero.INSTANCE)))`
 
 etc.
 Your mission in this Kata is to implement the following static operations with peano numbers:
