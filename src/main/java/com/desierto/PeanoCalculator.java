@@ -2,6 +2,11 @@ package com.desierto;
 
 public class PeanoCalculator {
 
+  public static Peano peano(int n) {
+    if (0 == n) return Zero.INSTANCE;
+    return new Succ(peano(n - 1));
+  }
+
   static Peano add(Peano a, Peano b) {
     return a;
   }
