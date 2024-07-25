@@ -38,3 +38,4 @@ Your mission in this Kata is to implement the following static operations with p
 
 IMPORTANT NOTE:
 -You can't use the following characters: + - * / % > <
+-You can't skip this rule by using libraries like Math or BigDecimal
