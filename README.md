@@ -35,3 +35,6 @@ Your mission in this Kata is to implement the following static operations with p
 - even(Peano a) Even number
 - odd(Peano a) Odd number
 - compare(Peano a, Peano b) Compare (LT, GT or EQ)
+
+IMPORTANT NOTE:
+-You can't use the following characters: + - * / % > <
