@@ -55,6 +55,9 @@ public class PeanoCalculator {
 
   private static Peano recursiveSubstraction(Peano a, Peano b) {
     if (a instanceof Zero) {
+      if (b instanceof Zero) {
+        return Zero.INSTANCE;
+      }
       throw new ArithmeticException("return value is negative");
     }
     if (b instanceof Zero) {

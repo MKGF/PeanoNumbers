@@ -42,6 +42,7 @@ public class PeanoCalculatorTest {
     assertPeanoEq(peano(10), sub(peano(10), peano(0)));
     assertPeanoEq(peano(1), sub(peano(3), peano(2)));
     assertPeanoEq(peano(313), sub(peano(537), peano(224)));
+    assertPeanoEq(peano(0), sub(peano(99), peano(99)));
     assertThrows(ArithmeticException.class, () -> sub(peano(0), peano(1)));
     assertThrows(ArithmeticException.class, () -> sub(peano(5), peano(7)));
   }
